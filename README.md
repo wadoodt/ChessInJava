@@ -5,6 +5,6 @@ Tried to make sure all rules of Chess are followed and tried removing all possib
 
 Use of abstract classes & methods, arrays, lists, sets, etc
 
-Java Swing used to pain the game onto the frame
+Java Swing used to paint the game onto the frame
 
 Put a lot of effort, so hope you like it <3
