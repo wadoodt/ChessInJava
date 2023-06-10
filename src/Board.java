@@ -135,8 +135,8 @@ public class Board extends JPanel{
                     }
                     else{//own pieces
                         if (-1 < x + direction[0] && -1 < y + direction[1] && 8 > x + direction[0] && 8 > y + direction[1]) {
-                            int[][] b = new int[][] {{x,y}, direction};
-                            king.kingLine.add(b);
+                            king.kingLine.add(new int[][] {{x,y}, direction});
+                            a.add(new int[] {x,y});
                         }
                     }
                 }
